@@ -17,6 +17,8 @@
     <?php include("development/template/head.php") ?> 
         <script>
         $(document).ready(function(){         
+
+	console.log('homie if this works i'll be so happy');
          
         $(".wdLink").click(function() {
             $('html,body').animate({
