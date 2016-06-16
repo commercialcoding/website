@@ -16,8 +16,7 @@
         <title>Commercial Coding - prices page </title>
     <?php include("development/template/head.php") ?> 
         <script>
-        $(document).ready(function(){
-	alert('what up dog testting the ultrahook');         
+        $(document).ready(function(){         
          
         $(".wdLink").click(function() {
             $('html,body').animate({
