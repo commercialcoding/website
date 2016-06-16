@@ -18,7 +18,7 @@
         <script>
         $(document).ready(function(){         
 
-	console.log('homie if this works i'll be so happy');
+	console.log('homie if this works ill be so happy');
          
         $(".wdLink").click(function() {
             $('html,body').animate({
