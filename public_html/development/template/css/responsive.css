@@ -1,0 +1,971 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Apr-2016, 22:40:56 
+author: james*/
+
+/*@charset "UTF-8";*/
+/* CSS Document */
+
+
+@media all and (min-width: 1201px)  {
+    #burgerMainMenu{
+        display:none;
+    }
+    #mainMenu, .navContainer{
+      display:block;  
+    }
+    .opt6{
+        display:none!important;
+    }
+}
+@media all and (max-width: 1200px)  {
+   .headlineDiv{
+        margin-left:350px;
+    }
+    .headLineImage{
+        margin-left:250px;
+    }	
+    
+    .serviceTile:hover{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);  
+        cursor:pointer;
+    }
+    #burgerMainMenu{
+        display:none;
+    }
+    #mainMenu, .navContainer{
+      display:block;  
+    }
+    .samsungImage{
+        padding-bottom:550px;
+    }
+    .opt6{
+        display:none!important;
+    }
+}
+
+@media all and (max-width: 1150px)  {
+    .planBlock h3{
+        width:95%;
+    }
+    
+    
+    
+    .serviceTile:hover{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);  
+        cursor:pointer;
+    }
+    .iphoneImage {
+    margin-top: 90px;
+    width: 99%;
+    padding-bottom: 520px;
+    }
+    
+    .projectTypeText{
+        height:280px;
+    }
+    .wrapper{
+        max-width:1050px;
+    }
+    .serviceTile{
+        padding-top: 230px;
+    }
+    .samsungImage{
+        padding-bottom:525px;
+    }
+
+}
+@media all and (max-width: 1100px)  {
+    .planBlock h3{
+        width:92%;
+    }
+    
+    .iphoneImage {
+        margin-top: 90px;
+        width: 99%;
+        padding-bottom: 500px;
+    }
+    /*index page */
+    .headlineDiv{
+        margin-left:250px;
+    }
+    .headLineImage{
+        margin-left:150px;
+    }
+    .serviceTile{
+        padding-top: 230px;
+    }
+    .wrapper{
+        max-width:1000px;
+    }
+    .serviceTile:hover{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);  
+        cursor:pointer;
+    }
+
+    .samsungImage{
+    padding-bottom: 499px;
+    margin-top: 100px;
+
+    }
+    .brain{
+        padding-bottom: 330px;
+    }
+    
+    
+}
+@media all and (max-width: 1000px)  {
+    /*index page */
+    .headlineDiv{
+        margin-left:240px;
+    }
+    .headLineImage{
+        margin-left:120px;
+    }
+    .serviceTile{
+        padding-top: 230px;
+    }
+    .projectTypeText{
+        height:320px;
+    }
+    .wrapper{
+        max-width:900px;
+    }
+    
+    .serviceTile:hover{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);  
+        cursor:pointer;
+    }
+    #Logo{
+        margin-left:60px;
+    }
+    .iphoneImage{
+        padding-bottom:450px;
+    }
+    .samsungImage{
+    padding-bottom: 449px;
+    margin-top: 120px;
+
+    }
+    .iosList li{
+        margin-left: 15px;
+    } 
+
+    .scrollingLine{
+        height:320px!important;
+    }
+    
+}
+
+@media all and (max-width: 950px)  {
+    
+    .moreOptions{
+        width:95%!important;
+    }
+    .moreOptions ul{
+        width:90%!important;
+    }
+    .pricePlans .wrapper .planBlock{
+        width:29%;
+    }
+    .pricePlans .wrapper{
+        width:100%!important;
+    }
+    .pricePageNav li{
+        width:23%!important;
+    }
+    
+    .samsungImage{
+        padding-bottom:450px;
+    }
+    .headlineDiv{
+        margin-left:200px;
+    }
+    .headLineImage{
+        margin-left:90px;
+    }
+    .projectTypeText{
+        height:350px;
+    }
+    .wrapper{
+        max-width:750px;
+    }
+    .serviceTile{
+        padding-top: 200px;
+    }
+ 
+    .serviceTile:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);  
+    cursor:pointer;
+    }  
+    .iosHolder, .samsungHolder{
+        width:0!important;   
+        display:none;
+    }
+    .iOSDesc{
+        width:100%!important;
+        text-align: center;
+    }
+        .samsungImage{
+    padding-bottom: 449px;
+    }
+    
+    .brain{
+        padding-bottom: 270px;
+    }
+    .webHeadline{
+        font-size:18px!important;
+    }
+    .scrollingLine{
+        height:300px!important;
+    }
+        #mainMenu ul li, #notScrollingMainMenu ul li{
+        width:110px;
+    }
+}
+
+
+@media all and (max-width: 900px)  {
+    .iphoneImage{
+        /*padding-bottom:450px;*/
+    }
+    .headlineDiv{
+        margin-left:150px;
+    }
+    .headLineImage{
+        margin-left:60px;
+    }
+    /*.serviceTile{
+        padding-top: 160px;
+    }
+    .tileTitle{
+        font-size: 27px;
+    }*/
+    
+    .serviceTile{
+        display:block;
+        width:100%!important;
+        padding-top:460px;
+    }
+    .tileTitle{
+        font-size:37px;
+    }
+    .wrapper{
+        max-width:750px;
+    }
+    .projectTypeText{
+        height:370px;
+    }
+            
+
+
+
+}
+@media all and (max-width: 850px)  {
+
+}
+@media all and (max-width: 800px)  {
+    
+    .offerBox .figCaption:before{
+        transform:scale(1);
+        -webkit-transform:scale(1);
+        opacity:0.35;
+
+    }
+
+    .offerBox img{
+        transform:scale(1);
+        -webkit-transform:scale(1);
+        opacity:0.35;
+    }
+
+    .offerBox figcaption{
+        border-style: solid;
+
+    }
+    .offerBox .figCaption p{
+        transform:scale(1);
+        -webkit-transform:scale(1);
+        opacity:1;
+        margin:20px;
+    }
+    .figCaption h2{
+        font-size:23px!important;
+    }
+
+
+    .offerDetails{
+        padding:20px!important;
+        text-align:center;
+    }
+    .offerDetails p{
+        width:90%;
+        margin:10px auto;
+    }
+    .offerDetails .whatsIncluded ul{
+        padding-left: 20%!important;
+        /* padding: 0; */
+        width: 80%;
+        margin: 0 auto;
+        text-align: left; 
+    }
+    .offerDetails .whatsIncluded li{
+        text-align: left;
+        font-size: 14px;
+        height: 30px;
+        color: grey;
+        display: inline-block;
+        line-height: 30px;
+        margin-bottom: 25px;
+        position: relative;
+        width: 35%!important;
+        padding-left: 40px;
+    }
+    .fixedBox{
+        display:none;
+    }
+    
+       
+    .respSeeSummary{
+        display:inline;
+    }
+    
+    .costBreakdown p, .costBreakdown ul{
+        margin:0!important;
+    }
+    .ccmContainer, .cbContainer{
+        text-align:center!important;
+    }
+    
+    .ydTitle{
+        text-align:center;
+    }
+    
+    .quoteForm{
+        width:80%;
+        margin:0 auto;
+    }
+    .costBreakdown{
+        height:auto!important;
+    }
+    
+    .costBreakdown, .commercialCodingMessage{
+        width:100%!important;
+    }
+    
+    
+    .textAbout{
+        text-align:center;
+        margin:0;
+    }
+    
+    
+    .iosHolder, .samsungHolder{
+        width:0!important;   
+        display:none;
+    }
+    .iOSDesc{
+        width:100%!important;
+        text-align: center;
+    }
+    .iosList{
+        text-align: center;
+    }
+    .iosList li{
+        margin-left: 0;
+    }
+    
+    .androidDesc h1, .androidDesc p {
+    margin-left: 0px;
+    } 
+    .devProcess, .packageHolder{
+        text-align:center!important;
+    }
+    .extras {
+        width:100%!important;
+        
+    }
+
+    .respCenter, .right{
+        text-align: center!important;
+    }
+    .cmsTint{
+        background-color:rgba(255,255,255,0.8);
+
+    }
+
+
+    #burgerMainMenu{
+        display:block;
+    }
+    #mainMenu, .navContainer{
+      display:none;  
+      height:0;
+      overflow:hidden;
+    }
+    
+    #Logo{
+        margin-left:5px;
+    }
+    .menuBox{
+        margin: 15% 15px 0 0;
+    }
+    
+    
+    .tint{
+        text-align: center;
+    }
+    .headlineDiv{
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .headLineImage{
+        margin: 0 auto;
+        margin-top:70px;
+    }
+    
+    
+    .serviceTile{
+        display:block;
+        width:100%!important;
+        padding-top:430px;
+    }
+    .tileTitle{
+        font-size:37px;
+    }
+    
+    .dividerHR{
+        display:block;
+        width:90%;
+        margin:0 auto;
+        margin-top:10px;
+    }
+    .responsiveWidth {
+        width:100%!important;
+        padding-bottom:5px;
+        padding-top:5px;
+    }
+    .contact_deets, .contact_form{
+        display:block;
+        width:100%!important;
+        text-align: center;
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+    .contactMargin, .align_elements{
+        text-align: center;
+        padding:0;
+        display:block;
+        width:100%;
+    }
+    
+    .contact_deets h2, .contactMargin h4, .align_elements h4{
+        display:block;
+        width:100%;
+    }
+    .contactTitle{
+        font-size:30px;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .brain{
+        margin-top:150px;
+    }
+    .holderResponsive{
+        padding:0!important;
+        margin-top:100px;
+    }
+    .scrollingLine{
+        height:310px!important;
+    }
+}
+@media all and (max-width: 750px)  {
+    
+    .planBlock h2{
+        font-size: 17px!important;
+    }
+    .quickOptions div.fluid{
+        width:50%!important;
+        padding-bottom:40px;
+    }
+    
+    .map-text{
+        display: none!important;
+        width: 0!important;
+    }
+
+    .webHeadline{
+        width:90%!important;
+        height:auto!important;
+        padding-bottom:100px!important;
+        border-radius:25px!important;
+    }
+    .checkService{
+        border-bottom-left-radius :25px!important;
+        border-bottom-right-radius :25px!important;
+
+    }
+    
+    .respContent{
+	height:0;
+	display:block;
+        overflow:hidden;
+    }
+    .titleSpan{
+        padding-bottom:5px;
+        border-bottom: 1px solid grey;
+        padding-right:50px;
+        position:relative;
+        
+    }
+    .titleSpan:hover{
+        cursor:pointer;
+    }
+    
+    .arrowImage{
+        position:absolute;
+        right:0;
+        bottom:0;
+        height:40px;
+        width:50px;
+        background-image:url('../../images/rightArrow.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+
+    }
+    
+    .firstDiv, .secondDiv, .thirdDiv, .forthDiv, .fifthDiv{
+        display:block!important;
+        margin-top:20px!important;
+        width:60%!important;
+        height:200px!important;
+    }
+    .scrollingLine{
+        display:none;
+    }
+    .textholder{
+        display:block!important;
+        float:none!important;
+        width:90%!important;
+        margin:0 auto;
+    }
+    .respContent{
+        transition:ease-out height 900ms!important;
+    }      
+    .respServiceSpan{
+        display:block;
+    }
+    .respTitleSpan{
+        display:block;
+        font-weight: 700;
+        font-size: 26px;
+        margin-bottom:10px;
+        color: rgba(60, 173, 156, 0.9);
+    }
+    .getQuoteTitleSpan{
+        display:block;
+        font-size:22px;
+    }
+    .repsBigScreenCheck{
+        display:none;
+    }
+    
+    .noMarginTop{
+        margin-top:25px!important;
+    }
+    
+    
+.brain {
+    padding-bottom: 210px;
+}
+    
+    
+    .projectTypeText{
+        height:380px;
+    } 
+    .wrapper.cw{
+        max-width:650px;
+    }
+        .webHeadline{
+        font-size:18px!important;
+    }
+    .scrollingLine{
+        height:300px;
+    }
+
+}
+
+@media all and (max-width: 700px)  {
+
+    
+    
+    .saleBanner img{
+        width:320px!important;
+        height:200px!important;
+    }
+    
+    .headlineDiv{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .tint{
+        text-align: center;
+    }
+    .imageDiv{
+        padding-bottom: 120px;
+    }
+    .projectTypeText{
+        height:400px;
+    }
+    
+    #mainMenu ul li, #notScrollingMainMenu ul li{
+        margin:0px 0px 0px 0px;
+        padding:20px 10px 20px 10px;
+    }
+            .webHeadline{
+        font-size:18px!important;
+    }
+    .scrollingLine{
+        height:300px;
+    }
+    
+    .footerBlock{
+        display:block;
+        width:100%!important;
+        text-align:center;
+        margin-bottom:20px;
+    }
+    .addressContainer{
+        display:block;
+    }
+}
+@media all and (max-width: 650px)  {
+    .offerDetails .whatsIncluded ul li{
+        width:40%!important;
+    }
+    .offerDetails .whatsIncluded ul{
+        padding-left:10%!important;
+    }
+    
+    .moreOptions{
+        display:none!important;
+    }
+        
+    .pricePlans .wrapper .planBlock{
+        width:50%;
+        margin-bottom: 20px;
+    }
+    
+    .hideExtraText{
+        display:none;
+    }
+    
+    #welcome{
+        padding-bottom:50px;
+    }
+    
+    
+    
+    .proj{
+        width:100%!important;
+        display:block;
+    }
+    .wrapper{
+        max-width: 600px!important;
+    }
+    .ptHeadline{
+        font-size:28px;
+        margin:25px 25px;
+    }
+    .ptContent{
+        font-size:19px;
+        line-height:35px;
+
+    }
+    .projectTypeText{
+        height:370px;
+    }
+    
+    
+    .serviceTile{
+        display:block;
+        width:100%!important;
+        padding-top:380px;
+    }
+    .tileTitle{
+        font-size:30px;
+    }
+    .imageDiv{
+        padding-bottom: 300px;
+    }
+    .rightBlock{
+        margin-bottom:50px;
+    }
+    .firstDiv, .secondDiv, .thirdDiv, .forthDiv, .fifthDiv{
+        width:70%!important;
+    }
+
+
+
+
+
+
+
+}
+ 
+@media all and (max-width: 600px)  {
+    .pricePageNav{
+        display:none!important;
+    }
+    .serviceTile{
+        padding-top:320px;
+    }
+    .headlineDiv{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .headLineImage{
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    .tint{
+        text-align: center;
+    }
+.brain {
+    padding-bottom: 180px;
+    margin-top:120px;
+}
+
+    .about .headline{
+        font-size: 59px;
+
+    }
+    .webHeadline{
+        padding-bottom:110px!important;
+    }
+    .checkService{
+        height:75px!important;
+    }
+
+        
+    .optionHolder{
+        width:490px!important;
+    }
+    .opt{
+        width:160px!important;
+        height:160px!important;
+    }
+    .serviceHolder{
+        margin-top:300px!important;
+    }
+    
+    
+    .opt6{
+        display:none!important;
+    }
+    
+}
+@media all and (max-width: 550px){
+    
+    
+    .planBlock{
+        width:70%!important;
+    }
+}
+@media all and (max-width: 500px){
+   
+    .iosService, .androidService, .cmsService, .extraService{
+        display:block;
+        width:100%!important;
+        height:25%!important;
+    }
+    
+    .appTile h2{
+        margin: 10%;
+    }
+    
+    .offerDetails .whatsIncluded ul li{
+        width:80%!important;
+    }
+    
+    
+    .firstDiv, .secondDiv, .thirdDiv, .forthDiv, .fifthDiv{
+        width:80%!important;
+    }
+    .webHeadline{
+        padding-bottom:110px!important;
+    }
+    .checkService{
+        height:75px;
+    }
+    
+    .quickContentSelected{
+        display:none;
+    }
+    .optionHolder{
+        width:100%!important;
+    }
+    .serviceSelector{
+        height:100%!important;
+        margin-top:40px!important;
+        width:95%!important;
+        text-align:center!important;
+    }
+    .opt1, .opt2, .opt3, .opt4, .opt5, .opt6 {
+        position:relative!important;
+        width:45%!important;
+        height:25%!important;
+        display:inline-block!important;
+        margin:0!important;
+        top:0px!important;
+        right:auto!important;
+        left:auto!important;    
+    }
+    .serviceHolder{
+        display:none!important;
+    }
+    .opt:hover{
+        cursor:pointer;
+    }
+    
+    .quoteForm{
+        width:70%;
+    }
+}
+
+@media all and (max-width: 450px)  {
+    .serviceTile{
+        padding-top: 260px;
+    }
+    
+    .projectTypeText{
+        height:470px;
+    }
+    
+    .skinnyText{
+        margin-bottom: 60px;
+    }
+    .brain {
+    padding-bottom: 140px;
+}
+   
+    
+    .headLineImage{
+        width: 340px;
+        padding-bottom: 174px;
+        
+    }
+    
+    .wrapper.cw{
+        max-width:210px!important;
+    }
+    .about .headline{
+        font-size: 59px;
+
+    }
+    .offerBox {
+        height:250px!important;
+        width:350px!important;
+    }
+    .Promotions h1, .tryQuotingApp h1{
+        font-size:25px!important;
+    }
+}
+@media all and (max-width: 400px)  {
+    
+    .offerBox {
+        height:210px!important;
+        width:310px!important;
+    }
+    .offerBox .figCaption p{
+        transform:scale(10.8);
+        -webkit-transform:scale(0.8);
+        opacity:1;
+        margin:0;
+    }
+    
+    
+    .projectTypeText{
+        height:530px;
+    }
+    
+    .headLineImage{
+        width: 340px;
+        padding-bottom: 174px;
+        
+    }
+    
+    .wrapper.cw{
+        max-width:210px!important;
+    }
+    
+    
+    /* app services */
+    
+    
+    .iosHolder, .samsungHolder{
+        width:0!important;   
+        display:none;
+    }
+    .iOSDesc{
+        width:100%!important;
+        text-align: center;
+    }
+
+    .iosList{
+        text-align: center;
+    }
+    .iosList li{
+        margin-left: 0;
+    }
+    
+    .androidDesc h1, .androidDesc p {
+    margin-left: 0px;
+    } 
+    .devProcess, .packageHolder{
+        text-align:center!important;
+    }
+    .extras {
+        width:100%!important;
+        
+    }
+
+    .respCenter, .right{
+        text-align: center!important;
+    }
+    
+    .cmsTint{
+        margin-top:0;
+        padding:0px;
+        background-color:rgba(255,255,255,0.9);
+    }
+    .cmsContent{
+        margin:0;
+    }
+    .cmsBG{
+        background-image: url('../../images/cms2_tra1.png');
+    }
+
+    
+}
+
+@media all and (max-width: 370px)  {
+        .projectTypeText{
+        height:560px;
+    }
+        
+    .hideExtraText{
+    }
+    
+}

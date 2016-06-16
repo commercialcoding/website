@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.fluid {
+	float:left;
+	position:relative;	
+}
+.fluid.col-1 {
+	width:8.3333%;	
+}
+.fluid.col-2 {
+	width:16.6666%;	
+}
+.fluid.col-3 {
+	width:25%;	
+}
+.fluid.col-4 {
+	width:33.3333%;	
+}
+.fluid.col-5 {
+	width:41.6666%;
+}
+.fluid.col-6 {
+	width:50%;
+}
+.fluid.col-7 {
+	width:58.3333%;
+}
+.fluid.col-8 {
+	width:66.6666%;	
+}
+.fluid.col-9 {
+	width:75%;
+}
+.fluid.col-10 {
+	width:83.3333%;
+}
+.fluid.col-11 {
+	width:91.6666%;
+}
+.fluid.col-12 {
+	width:100%;
+}
+.fluid.spaces {
+	padding:5px!important;
+}
+.fluid.bigspaces {
+	padding:20px!important;
+}
+.fluid.borl {
+	border-left:solid 1px #ccc;
+}
+.fluid.borr {
+	border-right:solid 1px #ccc;
+}
+.clear {
+	clear:both;	
+}
+
+.transition.slow {
+	-webkit-transition:all ease-in 400ms;
+	-moz-transition:all ease-in 400ms;
+	-o-transition:all ease-in 400ms;
+	-ms-transition:all ease-in 400ms;
+	transition:all ease-in 400ms;
+}
