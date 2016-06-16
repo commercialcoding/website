@@ -17,7 +17,7 @@
     <?php include("development/template/head.php") ?> 
         <script>
         $(document).ready(function(){
-         
+	alert('what up dog testting the ultrahook');         
          
         $(".wdLink").click(function() {
             $('html,body').animate({
