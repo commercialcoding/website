@@ -221,6 +221,37 @@ window.stagingFunction = function(mydiv){
 
 
 $(document).ready(function(){
+  
+    if(window.location.href.indexOf("services") > -1) {
+        $(".cs-text-cut").lettering('words');
+        $(".openFirst").addClass("cbp-ntopen");
+    }
+    
+    $('.wdSection').on('click', function(){
+        $('html,body').animate({
+        scrollTop: $(".desWebSection").offset().top-120},
+        'slow');
+    });
+    $('.wdevSection').on('click', function(){
+        $('html,body').animate({
+        scrollTop: $(".webDevSection").offset().top-120},
+        'slow');
+    });
+    $('.apdSection').on('click', function(){
+        $('html,body').animate({
+        scrollTop: $(".csText2").offset().top-110},
+        'slow');
+    });
+    $('.pSection').on('click', function(){
+        $('html,body').animate({
+        scrollTop: $(".promosDiv").offset().top-120},
+        'slow');
+    });
+    
+
+
+
+
 
     $('.backToTop').on('click', function(){
         $('html,body').animate({
@@ -437,7 +468,108 @@ $(document).ready(function(){
   
   window.onscroll = function() { 
      
+     
+     //services scroll locker
+    if(window.location.href.indexOf("services") > -1) {
+    console.log("scroll y: " +window.scrollY + "  570 is the current lock point");
+    var t = $(".desWebSection").offset().top;
+    var testTopDistance = t + $(".desWebSection").outerHeight(true) +  $(".supportIndex").outerHeight(true);
+        if(window.scrollY > 510){
+            $(".bigNavCards ul li img").addClass("hideMyImage");
+        }else{
+            $(".bigNavCards ul li img").removeClass("hideMyImage");
 
+        }
+       if(window.scrollY > 560 ){
+           if(window.scrollY < testTopDistance ){
+                $(".bigNavCards ul li:first-of-type").css('background-color', "#000");
+            }
+           if(!$(".bigNavContainer").hasClass('lockNewBar')){
+               
+                $(".bigNavCards ul li").css('background-color', "#222");
+
+                $(".bigNavContainer").addClass('lockNewBar');
+                $(".restOfPage").addClass('addScrollMargin');
+                $(".bigNavCards ul li:first-of-type").css('background-color', "#000");
+                $(".cs-text span.img1 ").addClass('jsAutoImage');
+                $(".cs-text span.showLetter ").addClass('jsAutoLetters');
+                
+           }
+       }else{
+           if($(".bigNavContainer").hasClass('lockNewBar')){
+                console.log("Removing Lock");
+
+                $(".bigNavContainer").removeClass('lockNewBar');
+                $(".restOfPage").removeClass('addScrollMargin');
+                $(".bigNavCards ul li:first-of-type").css('background-color', "rgba(0,0,0,0)");
+                $(".cs-text span:last-child ").removeClass('jsAutoImage');
+                $(".cs-text span.showLetter ").removeClass('jsAutoLetters');
+
+                $(".bigNavCards ul li").css('background-color', "#222");
+
+
+           }
+       }
+        var serviceScrollTop = $(window).scrollTop();
+        var cutTopDistance = $(".webDevSection").offset().top;
+        var test2TopDistance = cutTopDistance + $(".webDevSection").outerHeight(true);
+
+       
+       
+        if((cutTopDistance-170) < serviceScrollTop){
+            if(window.scrollY < test2TopDistance-170 ){
+                $(".bigNavCards ul li").css('background-color', "#222");
+
+                $(".bigNavCards ul li:nth-child(2)").css('background-color', "#000");
+            }
+            console.log( $(this).text() + 'cutter was scrolled to the top' );
+            
+            $(".cs-text-cutter .cs-text-cut:first-child ").addClass('autoCs-text-cutterFChild');
+            $(".cs-text-cutter .cs-text-cut:last-child ").addClass('autoCs-text-cutterLChild');
+            $(".cs-text-cutter .cs-text-mid ").addClass('autoCs-text-cutterMChild');
+       }else{
+           if( $(".cs-text-cutter .cs-text-mid ").hasClass('autoCs-text-cutterMChild')){
+            $(".cs-text-cutter .cs-text-cut:first-child ").removeClass('autoCs-text-cutterFChild');
+            $(".cs-text-cutter .cs-text-cut:last-child ").removeClass('autoCs-text-cutterLChild');
+            $(".cs-text-cutter .cs-text-mid ").removeClass('autoCs-text-cutterMChild');
+            $(".bigNavCards ul li").css('background-color', "#222");
+            
+           }
+       }   
+       
+       
+           
+           
+        var csTopDistance = $(".csText2").offset().top;
+        var test1TopDistance = csTopDistance + $(".csText2").outerHeight(true);
+
+        if((csTopDistance-120) < serviceScrollTop){
+            if(window.scrollY < test1TopDistance-120 ){
+            $(".bigNavCards ul li").css('background-color', "#222");
+            $(".bigNavCards ul li:nth-child(3)").css('background-color', "#000");
+        }
+            
+            console.log( $(this).text() + ' was scrolled to the top' );
+
+            $(".cs-text span.img2").addClass('jsAutoImage');
+            $(".cs-text span.showLetter2 ").addClass('jsAutoLetters');
+       }else{
+           if($(".cs-text span.showLetter2 ").hasClass('jsAutoLetters')){
+                $(".cs-text span.img2 ").removeClass('jsAutoImage');
+                $(".cs-text span.showLetter2 ").removeClass('jsAutoLetters');
+                $(".bigNavCards ul li").css('background-color', "#222");
+
+           }
+       }   
+       
+  
+        
+        
+        
+    } 
+     
+     
+    //back to top button for all pages
     if(window.scrollY > 350){
         if(!$(".backToTop").hasClass('showBackToTop')){
             showTopButton();
@@ -447,6 +579,10 @@ $(document).ready(function(){
             hideTopButton();
         }
     }
+
+
+    
+
 
 
 

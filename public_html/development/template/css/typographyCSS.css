@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2016, 12:06:55 PM
+    Author     : James
+*/
+
+
+.cs-text {
+	font-size: 50px;
+	text-transform: uppercase;
+	margin: 20px auto 0 auto;
+	width: auto;
+	height: 100px;
+	padding-left: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	position: relative;
+        text-align:center;
+}
+
+/* Micro clearfix hack by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cs-text:before,
+.cs-text:after {
+	content: " ";
+    display: table;
+}
+
+.cs-text:after {
+	clear: both;
+}
+/* end clearfix hack */
+/*The spans will be floating and we’ll make them round. We’ll also add a transition.*/
+.cs-text span {
+	cursor: default;
+	display: block;
+	float: left;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin: 0 0 0 -20px;
+	color: rgba(255,255,255,0.95);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.1);
+	transition: all 0.4s ease-in-out;
+}
+/*The spans will alternate in background color and we’ll add a subtle texture to them*/
+.cs-text span:nth-child(odd) {
+    background-color:rgba(44, 83, 208,0.8);
+}
+
+.cs-text span:nth-child(even) {
+	background: rgba(0,0,0, 0.8); 
+}
+/*All the spans will be moved to the center. We’ll apply the transform twice: the first one is the percentage that we know, i.e. the first span needs to be 3 positions so it’s 300%, and the second transform is for the compensation of the margin*/
+.cs-text span:nth-child(1) {
+	transform: translate(500%) translate(-170px);
+}
+
+.cs-text span:nth-child(2) {
+	transform: translate(400%) translate(-150px);
+}
+
+.cs-text span:nth-child(3) {
+	transform: translate(300%) translate(-130px);
+}
+
+.cs-text span:nth-child(4) {
+	transform: translate(200%) translate(-110px);
+}
+
+.cs-text span:nth-child(5) {
+	transform: translate(-100%) translate(110px);
+}
+
+.cs-text span:nth-child(6) {
+	transform: translate(-200%) translate(130px);
+}
+
+.cs-text span:nth-child(7) {
+	transform: translate(-300%) translate(150px);
+}
+
+.cs-text span:nth-child(8) {
+	transform: translate(-400%) translate(170px);
+}
+
+.cs-text span:nth-child(9) {
+	transform: translate(-500%) translate(190px);
+}
+
+
+
+
+/*All of the spans except the last one will have opacity 0:*/
+.cs-text span:not(:last-child) {
+	opacity: 0;
+	pointer-events: none;
+}
+/*The last span is the special logo span. We’ll give it a different background and position it absolutely in the center of the main wrapper:*/
+.cs-text span:last-child{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -50px;
+	z-index: 100;
+        background-size:60% 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+.wdLogoIcon{
+    background-image: url(../../images/all_icons/corrected_features/white_logoDesign_quoteIcon.png)!important;
+
+}
+.adLogoIcon{
+    background-image: url(../../images/all_icons/corrected_features/appDevIcon.png)!important;
+
+}
+
+/*On hover, all the translated spans will be set back to their natural position and we’ll increase the opacity value to 1:*/
+.cs-text:hover span:not(:last-child){
+	transform: translate(0%);
+	opacity: 1;
+}
+.cs-text:hover span:last-child {
+	opacity: 0;
+	transform: scale(1.4);        
+}
+
+.jsAutoLetters{
+	transform: translate(0%)!important;
+	opacity: 1!important;
+}
+.jsAutoImage{
+	opacity: 0;
+	transform: scale(1.4);
+}

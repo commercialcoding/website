@@ -964,10 +964,6 @@ background: rgba(90, 234, 111, 0.6);
     padding-bottom:30px;
 }
 
-.cmsContent{
-    text-align:left;
-}
-
 .extraBG{
     background-image:url('../../images/extras.jpg');
     background-size:105% 100%; 

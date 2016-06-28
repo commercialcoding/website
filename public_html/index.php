@@ -9,7 +9,7 @@ if(isset($_GET['offer'])){
 <html lang="en">        
 
     <head itemscope itemtype="http://schema.org/WebSite">
-        <title  itemprop='name'>Commercial Coding - Web, iOS and Android app design</title>
+        <title  itemprop='name'>Commercial Coding - Web design, mobile app design</title>
         <link  rel="canonical" href="http://commercialcoding.com" > 
         <link itemprop="url"  href="http://commercialcoding.com" > 
 
