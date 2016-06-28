@@ -540,13 +540,33 @@ $(document).ready(function(){
        
            
            
+        var promoTopDistance = $(".promosDiv").offset().top;
+        var t3TopDistance = promoTopDistance + $(".promosDiv").outerHeight(true);
+
+        if((promoTopDistance-120) < serviceScrollTop){
+            if(window.scrollY < t3TopDistance-120 ){
+            $(".bigNavCards ul li").css('background-color', "#222");
+            $(".bigNavCards ul li:nth-child(3)").css('background-color', "#000");
+        }
+       }else{
+           if($(".cs-text span.showLetter2 ").hasClass('jsAutoLetters')){
+              
+                $(".bigNavCards ul li").css('background-color', "#222");
+
+           }
+       }   
+       
+       
+       
+       
+       
         var csTopDistance = $(".csText2").offset().top;
         var test1TopDistance = csTopDistance + $(".csText2").outerHeight(true);
 
         if((csTopDistance-120) < serviceScrollTop){
             if(window.scrollY < test1TopDistance-120 ){
             $(".bigNavCards ul li").css('background-color', "#222");
-            $(".bigNavCards ul li:nth-child(3)").css('background-color', "#000");
+            $(".bigNavCards ul li:nth-child(4)").css('background-color', "#000");
         }
             
             console.log( $(this).text() + ' was scrolled to the top' );
