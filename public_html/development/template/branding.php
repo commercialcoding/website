@@ -51,10 +51,10 @@
 
             <li class="menuItem">
                 <a href="http://www.commercialcoding.com/services.php">Services</a>
-                <ul>
+                <!--<ul>
                     <li><a href="http://www.commercialcoding.com/app_services.php">App Development</a></li>
                     <li><a href="http://www.commercialcoding.com/web_design_services.php">Website Design</a></li>
-                </ul>
+                </ul>-->
                 <div class="dividerLine"></div></li>
 
             <li class="menuItem"><a href="http://www.commercialcoding.com/contact.php">Contact</a><div class="dividerLine"></div></li>
