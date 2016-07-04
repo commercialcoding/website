@@ -18,7 +18,7 @@ switch($input) {
         $emailBody = $emailBody . "message: " . $_POST['message'] . "  \n";
         
         mail("jay.exton@live.co.uk", "Commercial Coding Enquiry", $emailBody);
-        header('Location:http://www.commercialcoding.com/contact.php?sent=true');        
+        header('Location:http://www.commercialcoding.com/contact?sent=true');        
         break;
     
     

@@ -1,3 +1,24 @@
+//google analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-76517060-1', 'auto');
+    ga('send', 'pageview');
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-76523161-1', 'auto');
+    ga('send', 'pageview');
+
+
+
+
+
 var myJSarray =[];
 var myDeviceJSarry =[];
 
@@ -68,7 +89,7 @@ $(".qSummary").click(function(){
 });
 
 window.confirmMessage = function(messagediv){
-            var path = "development/";
+    var path = "development/";
 
     var name = messagediv.find("#name").val();
     var projectTitle = messagediv.find("#projectTitle").val();
@@ -221,6 +242,62 @@ window.stagingFunction = function(mydiv){
 
 
 $(document).ready(function(){
+    //$(".showService").hover(function(){$(".serviceBlock").addClass("showServiceBlock");},function(){$(".serviceBlock").removeClass("showServiceBlock");});
+    console.log();
+    if(window.location.href.toString() === "http://commercialcoding.com/"){
+        
+        $(".scrollDownButton").click(function() {
+           $('html,body').animate({
+               scrollTop: $("#welcome").offset().top-60},
+               'slow');
+        });  
+    }
+
+    
+    if(window.location.href.indexOf('pricing') > -1){
+        console.log("hello");
+        $(".wdLink").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".pp1").offset().top-60},
+                'slow');
+        });  
+        
+        $(".oqLink").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".tryQuotingApp").offset().top-60},
+                'slow');
+        });  
+        
+        $(".oLink").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".Promotions").offset().top-60},
+                'slow');
+        });  
+        
+        $(".appLink").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".pp2").offset().top-60},
+                'slow');
+        });  
+    }
+        
+        
+    if(window.location.search.indexOf('smallBiz') > -1){
+        console.log('yay');
+        $('.promoBanner').css('display','block');
+        $('.promoBannerScrolling').css('display','block');
+        $('.navContainer').css('top','-120px');
+        $('.navContainer').css('height','120px');
+        $('header').css('height','120px');
+        $('#mainMenu').css('height','50%');
+        $('#Logo').css('height','50%');
+        $('#insideLogo').css('height','50%');
+        $('#notScrollingMainMenu').css('height','50%');
+    }else{
+        $('.promoBanner').css('display','none');
+        $('.promoBannerScrolling').css('display','none');
+    }
+  
   
     if(window.location.href.indexOf("services") > -1) {
         $(".cs-text-cut").lettering('words');
@@ -468,9 +545,29 @@ $(document).ready(function(){
   
   window.onscroll = function() { 
      
+    if(window.location.href.indexOf("http://commercialcoding.com") === 0){
+        
+        var adjustedPageHeight = "-" + window.scrollY*0.5 +  "px";
+        var adjustedPageHeight2 = window.scrollY*0.5 +  "px";
+        
+        
+        console.log("page test: " + adjustedPageHeight);
+        if(window.scrollY > 0){
+            $("#background").css("top", adjustedPageHeight);
+        }else{
+            $("#background").css("top", adjustedPageHeight2);
+
+        }
+    }
+     
+     
      
      //services scroll locker
     if(window.location.href.indexOf("services") > -1) {
+        
+        
+        
+        
     console.log("scroll y: " +window.scrollY + "  570 is the current lock point");
     var t = $(".desWebSection").offset().top;
     var testTopDistance = t + $(".desWebSection").outerHeight(true) +  $(".supportIndex").outerHeight(true);
@@ -515,11 +612,12 @@ $(document).ready(function(){
         var test2TopDistance = cutTopDistance + $(".webDevSection").outerHeight(true);
 
        
-       
         if((cutTopDistance-170) < serviceScrollTop){
             if(window.scrollY < test2TopDistance-170 ){
+                
+                
+                
                 $(".bigNavCards ul li").css('background-color', "#222");
-
                 $(".bigNavCards ul li:nth-child(2)").css('background-color', "#000");
             }
             console.log( $(this).text() + 'cutter was scrolled to the top' );

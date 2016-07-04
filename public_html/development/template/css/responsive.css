@@ -452,9 +452,12 @@ author: james*/
         margin-top:10px;
     }
     .responsiveWidth {
-        width:100%!important;
+        width:80%!important;
         padding-bottom:5px;
         padding-top:5px;
+        margin: 0 auto;
+    float: none;
+    display: block;
     }
     .contact_deets, .contact_form{
         display:block;

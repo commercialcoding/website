@@ -5,11 +5,15 @@
 <html  lang="en">
     <head>
         <meta charset="utf-8">
+        <title>About Commercial Coding - ethos, development team and background</title>
+        <link  rel="canonical" href="http://commercialcoding.com/about" > 
+
         <meta name="google-site-verification" content="FD7TP00A7PcJTCWREqr_HZLAiMSHZY-ixO7Oq0H5psU"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
-        <meta name="keywords" content="web design, web design macclesfield, iOS developer, android developer, app development macclesfield, app development manchester, web development macclesfield, mobile app developer, iphone developer, android developer, app design macclesfield, commercial coding">    
-        <meta name="description" content="Commercial Coding Ltd are specialists in Website, iOS and Android development, operating out of macclesfield in Cheshire. We can design and develop mobile applications for Apple and Android devices, other services include website deign, web application development, bespoke CMS's and Website hosting.">
-        <title>Commercial Coding - Web, iOS and Android app design about </title>
+        
+        <meta name="keywords" content="ethos, commercial coding, background, development team, About Commercial Coding, Digital Design Agency">    
+        
+        <meta name="description" content="Commercial coding about us page, find out about the commercial coding development team, how we work, the commercial coding ethos and can find the company background. ">
     
  <?php include("development/template/head.php") ?> 
     </head>
@@ -24,8 +28,8 @@
                     </div>
                     <div class="fluid col-7">
                         <div class="about">
-                            <h2 class="headline">About Us</h2>
-
+                            <h1 class="headline">About Commercial Coding</h1>
+                            <h3>The Digitial Development Agency</h3>
                         </div>
                     </div>
                 </div>
@@ -37,27 +41,29 @@
                 <div class="wrapper">
                     <div class="fluid col-12">
                         <div class="textAbout">
-                            <h4 class="titleAbout">
-                                Our Ethos
-                            </h4>
+                            
+                            <h2 class="titleAbout">
+                                Commercial Coding Ethos
+                            </h2>
                             <p class="contentAbout">
                                 Commercial coding developers pride ourselves on our work and give all our commercial products the same care and attention, 
                                 regardless of job size or type. We make sure to provide a service that goes above and beyond for all of our clients because 
                                 their satisfaction means the most to us. We think dedication to our work and our clients is the way to produce excellent 
                                 websites and software products.
+                            </p>
                             
-                            <h4 class="titleAbout">
-                                On Top Of That
-                            </h4>  
+                            <h2 class="titleAbout">
+                                Commercial Coding Development Team
+                            </h2>  
                             <p class="contentAbout">
                                 we like to think of ourselves as know-it all's when it comes to commercial coding, we're good at just about everything 
                                 from Javascript websites to fully reponsive designs and even mobile apps. The developers here have great passion for 
                                 digital development and thats what makes us feel like we are right choice for your digital media requirements. 
                             
                             </p>
-                            <h4 class="titleAbout">
-                                Our Background
-                            </h4>
+                            <h2 class="titleAbout">
+                                Commercial Coding Background
+                            </h2>
                             <p class="contentAbout">
                                 The company was formed in early 2016, and founded by our technical director James Exton. 
                                 The company itself has been built on 5 years of experience in the web development industry and our experience has 

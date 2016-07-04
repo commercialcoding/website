@@ -95,7 +95,6 @@
 			// options
 			this.options = $.extend( true, {}, $.Slitslider.defaults, options );
 
-			// https://github.com/twitter/bootstrap/issues/2870
 			this.transEndEventNames = {
 				'WebkitTransition' : 'webkitTransitionEnd',
 				'MozTransition' : 'transitionend',

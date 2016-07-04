@@ -1,0 +1,22 @@
+User-agent: Googlebot 
+Disallow: /mywordpresspages/
+Disallow: /parrallax/
+Disallow: /showcase/
+Disallow: /template.clean/
+Disallow: /template.website/
+
+User-agent: bingbot 
+Disallow: /mywordpresspages/
+Disallow: /parrallax/
+Disallow: /showcase/
+Disallow: /template.clean/
+Disallow: /template.website/
+
+User-agent: Slurp 
+Disallow: /mywordpresspages/
+Disallow: /parrallax/
+Disallow: /showcase/
+Disallow: /template.clean/
+Disallow: /template.website/
+
+sitemap: http://www.commercialcoding.com/sitemap.xml

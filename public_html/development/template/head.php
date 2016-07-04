@@ -10,23 +10,3 @@
 <script async src="development/js/bootbox.min.js" type="text/javascript"></script>
 <script src="development/js/indexJS.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="development/template/css/responsive.css">
-<script>
-   /*google analytics*/
-   
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-76517060-1', 'auto');
-    ga('send', 'pageview');
-
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-76523161-1', 'auto');
-    ga('send', 'pageview');
-
-</script>

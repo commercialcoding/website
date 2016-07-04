@@ -16,10 +16,10 @@ and open the template in the editor.
 
 
 .bgimage_websiteProject{
-    background-image:url('../../images/all_icons/website_wbg.png');
+    background-image:url('../../images/all-icons/website_wbg.png');
 }
 .bgimage_websiteProject:hover{
-    background-image:url('../../images/all_icons/white_website_wbg.png');
+    background-image:url('../../images/all-icons/white_website_wbg.png');
 }
 
 
@@ -33,405 +33,405 @@ and open the template in the editor.
 
 
 .bgimage_appProject{
-    background-image:url('../../images/all_icons/appIcon.png');
+    background-image:url('../../images/all-icons/appIcon.png');
 }
 .bgimage_appProject:hover{
-    background-image:url('../../images/all_icons/white_appIcon.png');
+    background-image:url('../../images/all-icons/white_appIcon.png');
 }
 
 .bgimage_webAppProject{
-    background-image:url('../../images/all_icons/webapp_wbg.png');
+    background-image:url('../../images/all-icons/webapp_wbg.png');
 }
 .bgimage_webAppProject:hover{
-    background-image:url('../../images/all_icons/white_webapp_wbg.png');
+    background-image:url('../../images/all-icons/white_webapp_wbg.png');
 }
 
 .Small-Business{
-    background-image:url('../../images/all_icons/Small-Business.png');
+    background-image:url('../../images/all-icons/Small-Business.png');
 }
 .Small-Business:hover{
-    background-image:url('../../images/all_icons/white_Small-Business.png');
+    background-image:url('../../images/all-icons/white_Small-Business.png');
 }
 .Enterprise{
-    background-image:url('../../images/all_icons/enterprise.png');
+    background-image:url('../../images/all-icons/enterprise.png');
 }
 .Enterprise:hover{
-    background-image:url('../../images/all_icons/white_enterprise.png');
+    background-image:url('../../images/all-icons/white_enterprise.png');
 }
 
 .Personal{
-    background-image:url('../../images/all_icons/personal.png'); 
+    background-image:url('../../images/all-icons/personal.png'); 
 }
 .Personal:hover{
-    background-image:url('../../images/all_icons/white_personal.png'); 
+    background-image:url('../../images/all-icons/white_personal.png'); 
 }
 .Business{
-    background-image:url('../../images/all_icons/business.png');
+    background-image:url('../../images/all-icons/business.png');
     
 }
 .Business:hover{
-    background-image:url('../../images/all_icons/white_business.png');
+    background-image:url('../../images/all-icons/white_business.png');
     
 }
 .Non-Profit{
-    background-image:url('../../images/all_icons/non-profit.png');  
+    background-image:url('../../images/all-icons/non-profit.png');  
 }
 .Non-Profit:hover{
-    background-image:url('../../images/all_icons/white_non-profit.png');  
+    background-image:url('../../images/all-icons/white_non-profit.png');  
 }
 
 .Small{
-      background-image:url('../../images/all_icons/1-4.png'); 
+      background-image:url('../../images/all-icons/1-4.png'); 
 }
 .Small:hover{
-      background-image:url('../../images/all_icons/white_1-4.png'); 
+      background-image:url('../../images/all-icons/white_1-4.png'); 
 }
 
 .Medium{
-        background-image:url('../../images/all_icons/5-9.png');
+        background-image:url('../../images/all-icons/5-9.png');
 }
 .Medium:hover{
-        background-image:url('../../images/all_icons/white_5-9.png');
+        background-image:url('../../images/all-icons/white_5-9.png');
 }
 .Large{
-       background-image:url('../../images/all_icons/10-14.png');
+       background-image:url('../../images/all-icons/10-14.png');
 }
 .Large:hover{
-       background-image:url('../../images/all_icons/white_10-14.png');
+       background-image:url('../../images/all-icons/white_10-14.png');
 }
 .Extra-Large{
-        background-image:url('../../images/all_icons/15.png');
+        background-image:url('../../images/all-icons/15.png');
 }
 .Extra-Large:hover{
-        background-image:url('../../images/all_icons/white_15.png');
+        background-image:url('../../images/all-icons/white_15.png');
 }
 
 
 /*Devices*/
 .iPhone{
-    background-image:url('../../images/all_icons/iphone.png'); 
+    background-image:url('../../images/all-icons/iphone.png'); 
 }
 .iPhone:hover{
-    background-image:url('../../images/all_icons/white_iphone.png'); 
+    background-image:url('../../images/all-icons/white_iphone.png'); 
 }
 .white_iPhone{
-    background-image:url('../../images/all_icons/white_iphone.png')!important; 
+    background-image:url('../../images/all-icons/white_iphone.png')!important; 
 }
 
 .iPad{
-    background-image:url('../../images/all_icons/ipad.png'); 
+    background-image:url('../../images/all-icons/ipad.png'); 
 }
 .iPad:hover{
-    background-image:url('../../images/all_icons/white_ipad.png'); 
+    background-image:url('../../images/all-icons/white_ipad.png'); 
 }
 .white_iPad{
-    background-image:url('../../images/all_icons/white_ipad.png')!important; 
+    background-image:url('../../images/all-icons/white_ipad.png')!important; 
 }
 
 
 .Android.Phone{
-    background-image:url('../../images/all_icons/android-phone.png'); 
+    background-image:url('../../images/all-icons/android-phone.png'); 
 }
 .Android.Phone:hover{
-    background-image:url('../../images/all_icons/white_android-phone.png'); 
+    background-image:url('../../images/all-icons/white_android-phone.png'); 
 }
 .white_Android_Phone{
-    background-image:url('../../images/all_icons/white_android-phone.png')!important; 
+    background-image:url('../../images/all-icons/white_android-phone.png')!important; 
 }
 
 .Android.Tablet{
-    background-image:url('../../images/all_icons/android_tablet.png'); 
+    background-image:url('../../images/all-icons/android_tablet.png'); 
 }
 .Android.Tablet:hover{
-    background-image:url('../../images/all_icons/white_android_tablet.png'); 
+    background-image:url('../../images/all-icons/white_android_tablet.png'); 
 }
 .white_Android_Tablet{
-    background-image:url('../../images/all_icons/white_android_tablet.png')!important; 
+    background-image:url('../../images/all-icons/white_android_tablet.png')!important; 
 }
 
 
 /*features */
 .cms{
-    background-image:url('../../images/all_icons/corrected_features/CMS_quoteIcon.png'); 
+    background-image:url('../../images/all-icons/corrected-features/CMS_quoteIcon.png'); 
 }
 .cms:hover{
-    background-image:url('../../images/all_icons/corrected_features/white_CMS_quoteIcon.png'); 
+    background-image:url('../../images/all-icons/corrected-features/white_CMS_quoteIcon.png'); 
 }
 .white_cms{
-    background-image:url('../../images/all_icons/corrected_features/white_CMS_quoteIcon.png')!important; 
+    background-image:url('../../images/all-icons/corrected-features/white_CMS_quoteIcon.png')!important; 
 }
 
 .Responsive.Design{
-    background-image:url('../../images/all_icons/corrected_features/responsive_quoteIcon.png'); 
+    background-image:url('../../images/all-icons/corrected-features/responsive_quoteIcon.png'); 
 }
 .white_Responsive_Design{
-    background-image:url('../../images/all_icons/corrected_features/white_responsive_quoteIcon.png')!important; 
+    background-image:url('../../images/all-icons/corrected-features/white_responsive_quoteIcon.png')!important; 
 }
 .Responsive.Design:hover{
-    background-image:url('../../images/all_icons/corrected_features/white_responsive_quoteIcon.png')!important; 
+    background-image:url('../../images/all-icons/corrected-features/white_responsive_quoteIcon.png')!important; 
 }
 
 .Portfolio{
-    background-image:url('../../images/all_icons/corrected_features/portfolio.png'); 
+    background-image:url('../../images/all-icons/corrected-features/portfolio.png'); 
 }
 .white_Portfolio{
-    background-image:url('../../images/all_icons/corrected_features/white_portfolio.png')!important; 
+    background-image:url('../../images/all-icons/corrected-features/white_portfolio.png')!important; 
 }
 .Portfolio:hover{
-    background-image:url('../../images/all_icons/corrected_features/white_portfolio.png')!important; 
+    background-image:url('../../images/all-icons/corrected-features/white_portfolio.png')!important; 
 }
 
 .Gallery{
-    background-image:url('../../images/all_icons/corrected_features/gallery_quoteIcon.png'); 
+    background-image:url('../../images/all-icons/corrected-features/gallery_quoteIcon.png'); 
 }
 .white_Gallery{
-    background-image:url('../../images/all_icons/corrected_features/white_gallery_quoteIcon.png')!important; 
+    background-image:url('../../images/all-icons/corrected-features/white_gallery_quoteIcon.png')!important; 
 }
 .Gallery:hover{
-    background-image:url('../../images/all_icons/corrected_features/white_gallery_quoteIcon.png')!important; 
+    background-image:url('../../images/all-icons/corrected-features/white_gallery_quoteIcon.png')!important; 
 }
 
 .Product.Catalogue{    
-    background-image:url('../../images/all_icons/corrected_features/catalogue.png');  
+    background-image:url('../../images/all-icons/corrected-features/catalogue.png');  
 }
 .white_Product_Catalogue{    
-    background-image:url('../../images/all_icons/corrected_features/white_catalogue.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_catalogue.png')!important;  
 }
 .Product.Catalogue:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_catalogue.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_catalogue.png')!important;  
 }
 
 .E-commerce{    
-    background-image:url('../../images/all_icons/corrected_features/ecommerce.png');  
+    background-image:url('../../images/all-icons/corrected-features/ecommerce.png');  
 }
 .white_E-commerce{    
-    background-image:url('../../images/all_icons/corrected_features/white_ecommerce.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_ecommerce.png')!important;  
 }
 .E-commerce:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_ecommerce.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_ecommerce.png')!important;  
 }
 
 .Logo.Design{    
-    background-image:url('../../images/all_icons/corrected_features/logoDesign_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/logoDesign_quoteIcon.png');  
 }
 .white_Logo_Design{    
-    background-image:url('../../images/all_icons/corrected_features/white_logoDesign_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_logoDesign_quoteIcon.png')!important;  
 }
 
 .Logo.Design:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_logoDesign_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_logoDesign_quoteIcon.png')!important;  
 }
 
 .Calendar{
-    background-image:url('../../images/all_icons/corrected_features/calendar_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/calendar_quoteIcon.png');  
 }
 .white_Calendar{
-    background-image:url('../../images/all_icons/corrected_features/white_calendar_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_calendar_quoteIcon.png')!important;  
 }
 .Calendar:hover{
-    background-image:url('../../images/all_icons/corrected_features/white_calendar_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_calendar_quoteIcon.png')!important;  
 }
     
 .Media.Integration{    
-    background-image:url('../../images/all_icons/corrected_features/media_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/media_quoteIcon.png');  
 }    
 .white_Media_Integration{    
-    background-image:url('../../images/all_icons/corrected_features/white_media_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_media_quoteIcon.png')!important;  
 }     
 .Media.Integration:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_media_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_media_quoteIcon.png')!important;  
 }   
 .User.Profiles{    
-    background-image:url('../../images/all_icons/corrected_features/profiles_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/profiles_quoteIcon.png');  
 } 
 .white_User_Profiles{    
-    background-image:url('../../images/all_icons/corrected_features/white_profiles_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_profiles_quoteIcon.png')!important;  
 }
 .User.Profiles:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_profiles_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_profiles_quoteIcon.png')!important;  
 }
    
 .Administrator.Access{    
-    background-image:url('../../images/all_icons/corrected_features/admin_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/admin_quoteIcon.png');  
 }
 .white_Administrator_Access{    
-    background-image:url('../../images/all_icons/corrected_features/white_admin_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_admin_quoteIcon.png')!important;  
 }
 .Administrator.Access:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_admin_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_admin_quoteIcon.png')!important;  
 }
    
 .Messaging.System{    
-    background-image:url('../../images/all_icons/corrected_features/messages.png');  
+    background-image:url('../../images/all-icons/corrected-features/messages.png');  
 }  
 .white_Messaging_System{    
-    background-image:url('../../images/all_icons/corrected_features/white_messages.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_messages.png')!important;  
 }
 .Messaging.System:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_messages.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_messages.png')!important;  
 }
    
 .Social.Media{    
-    background-image:url('../../images/all_icons/corrected_features/social_media_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/social_media_quoteIcon.png');  
 }
    
 .white_Social_Media{    
-    background-image:url('../../images/all_icons/corrected_features/white_social_media_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_social_media_quoteIcon.png')!important;  
 }  
 .Social.Media:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_social_media_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_social_media_quoteIcon.png')!important;  
 }
 
    
 .Address.Book{    
-    background-image:url('../../images/all_icons/corrected_features/contacts_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/contacts_quoteIcon.png');  
 }
 .white_Address_Book{    
-    background-image:url('../../images/all_icons/corrected_features/white_contacts_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_contacts_quoteIcon.png')!important;  
 }
 .Address.Book:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_contacts_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_contacts_quoteIcon.png')!important;  
 }
    
 .Location.Services{    
-    background-image:url('../../images/all_icons/corrected_features/maps_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/maps_quoteIcon.png');  
 }   
 .white_Location_Services{    
-    background-image:url('../../images/all_icons/corrected_features/white_maps_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_maps_quoteIcon.png')!important;  
 } 
 .Location.Services:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_maps_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_maps_quoteIcon.png')!important;  
 }
 
    
 .Databases{    
-    background-image:url('../../images/all_icons/corrected_features/database_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/database_quoteIcon.png');  
 }      
 .white_Databases{    
-    background-image:url('../../images/all_icons/corrected_features/white_database_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_database_quoteIcon.png')!important;  
 }       
 .Databases:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_database_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_database_quoteIcon.png')!important;  
 }   
 
 
 .Animations{    
-    background-image:url('../../images/all_icons/corrected_features/animations.png');  
+    background-image:url('../../images/all-icons/corrected-features/animations.png');  
 }     
 .white_Animations{    
-    background-image:url('../../images/all_icons/corrected_features/white_animations.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_animations.png')!important;  
 }     
 .Animations:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_animations.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_animations.png')!important;  
 }   
 
 
 .Google.Analytics{    
-    background-image:url('../../images/all_icons/corrected_features/ga_quoteIcon.png');  
+    background-image:url('../../images/all-icons/corrected-features/ga_quoteIcon.png');  
 }    
 .white_Google_Analytics{    
-    background-image:url('../../images/all_icons/corrected_features/white_ga_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_ga_quoteIcon.png')!important;  
 }    
 .Google.Analytics:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_ga_quoteIcon.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_ga_quoteIcon.png')!important;  
 }   
 
 
 .Parallax:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_parallax.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_parallax.png')!important;  
 }  
 .white_Parallax{    
-    background-image:url('../../images/all_icons/corrected_features/white_parallax.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_parallax.png')!important;  
 } 
 .Parallax{    
-    background-image:url('../../images/all_icons/corrected_features/parallax.png');  
+    background-image:url('../../images/all-icons/corrected-features/parallax.png');  
 }
 
 
 .in-App.Purchases:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_appstore.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_appstore.png')!important;  
 }  
 .white_in-App_Purchases{    
-    background-image:url('../../images/all_icons/corrected_features/white_appstore.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_appstore.png')!important;  
 } 
 .in-App.Purchases{    
-    background-image:url('../../images/all_icons/corrected_features/appstore.png');  
+    background-image:url('../../images/all-icons/corrected-features/appstore.png');  
 }
 
 .Email.Login:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_email_login.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_email_login.png')!important;  
 }  
 .white_Email_Login{    
-    background-image:url('../../images/all_icons/corrected_features/white_email_login.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_email_login.png')!important;  
 } 
 .Email.Login{    
-    background-image:url('../../images/all_icons/corrected_features/email_login.png');  
+    background-image:url('../../images/all-icons/corrected-features/email_login.png');  
 }
 
 .RSS.Feed:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_rss.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_rss.png')!important;  
 }  
 .white_RSS_Feed{    
-    background-image:url('../../images/all_icons/corrected_features/white_rss.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_rss.png')!important;  
 } 
 .RSS.Feed{    
-    background-image:url('../../images/all_icons/corrected_features/rss.png');  
+    background-image:url('../../images/all-icons/corrected-features/rss.png');  
 }
 
 
 .Forms:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_form.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_form.png')!important;  
 }  
 .white_Forms{    
-    background-image:url('../../images/all_icons/corrected_features/white_form.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_form.png')!important;  
 } 
 .Forms{    
-    background-image:url('../../images/all_icons/corrected_features/form.png');  
+    background-image:url('../../images/all-icons/corrected-features/form.png');  
 }
 
 
 .Social.Login:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_social_login.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_social_login.png')!important;  
 }  
 .white_Social_Login{    
-    background-image:url('../../images/all_icons/corrected_features/white_social_login.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_social_login.png')!important;  
 } 
 .Social.Login{    
-    background-image:url('../../images/all_icons/corrected_features/social_login.png');  
+    background-image:url('../../images/all-icons/corrected-features/social_login.png');  
 }
 
 
 .Music:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_audio.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_audio.png')!important;  
 }  
 .white_Music{    
-    background-image:url('../../images/all_icons/corrected_features/white_audio.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_audio.png')!important;  
 } 
 .Music{    
-    background-image:url('../../images/all_icons/corrected_features/audio.png');  
+    background-image:url('../../images/all-icons/corrected-features/audio.png');  
 }
 
 
 .Video:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_photos_video.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_photos_video.png')!important;  
 }  
 .white_Video{    
-    background-image:url('../../images/all_icons/corrected_features/white_photos_video.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_photos_video.png')!important;  
 } 
 .Video{    
-    background-image:url('../../images/all_icons/corrected_features/photos_video.png');  
+    background-image:url('../../images/all-icons/corrected-features/photos_video.png');  
 }
 
 
 
 .Push.Notifications:hover{    
-    background-image:url('../../images/all_icons/corrected_features/white_notifcation.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_notifcation.png')!important;  
 }  
 .white_Push_Notifications{    
-    background-image:url('../../images/all_icons/corrected_features/white_notifcation.png')!important;  
+    background-image:url('../../images/all-icons/corrected-features/white_notifcation.png')!important;  
 } 
 .Push.Notifications{    
-    background-image:url('../../images/all_icons/corrected_features/notifcation.png');  
+    background-image:url('../../images/all-icons/corrected-features/notifcation.png');  
 }
 
 

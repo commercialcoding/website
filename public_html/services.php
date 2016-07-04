@@ -1,22 +1,22 @@
 <?php
 ?>
 <!DOCTYPE html>
-
+<html  lang="en">
 
     <head>
         <meta charset="utf-8">
+        <link  rel="canonical" href="http://commercialcoding.com/services" > 
+
         <meta name="google-site-verification" content="FD7TP00A7PcJTCWREqr_HZLAiMSHZY-ixO7Oq0H5psU"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
-        <meta name="keywords" content="web design, web design macclesfield, iOS developer, android developer, app development macclesfield, app development manchester, web development macclesfield, mobile app developer, iphone developer, android developer, app design macclesfield, commercial coding">    
-        <meta name="description" content="Commercial Coding Ltd are specialists in Website, iOS and Android development, operating out of macclesfield in Cheshire. We can design and develop mobile applications for Apple and Android devices, other services include website deign, web application development, bespoke CMS's and Website hosting.">
-        <title>Commercial Coding - Web, iOS and Android app design</title> 
+        <meta name="keywords" content="app development, iOS development, Android development, web design, promotion, web development, Commercial Coding, Services list, bespoke websites, services "> 
+        <meta name="description" content="Commercial Coding Services list includes app development including iOS development and Android development, web design, promotion and web development">
+        <title>Digital Development services - app design, web design</title> 
         <?php include("development/template/head.php") ?> 
-
         <link rel="stylesheet" type="text/css" href="development/tiltedSS/css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="development/tiltedSS/css/demo.css" />
         <link rel="stylesheet" type="text/css" href="development/tiltedSS/css/component.css" />
         <link rel="stylesheet" type="text/css" href="development/template/css/typographyCSS.css" />
-        
         <link rel="stylesheet" type="text/css" href="development/NestedAccordion/css/default.css" />
         <link rel="stylesheet" type="text/css" href="development/NestedAccordion/css/component.css" />
         <script src="development/NestedAccordion/js/jquery.cbpNTAccordion.min.js" />
@@ -48,8 +48,15 @@
             .sliderTitle{
                 padding:40px 0px 20px 0px;
                 color:White;
-               
             }
+            h1.sliderTitle, h2.sliderTitle{
+                padding: 20px 0px;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-size: 38px;
+                display: inline-block;
+                margin: 0;
+            }
+            
             .white{
                 background-image: url('development/images/halfSlide.png');
                 background-size:50%;
@@ -316,25 +323,17 @@
                 
             }
         </style>
-            
-        <script>
-       
-        
-        
-        </script>
-            
-        
     </head>
     
-            <div class='parallaxBG'></div>
-            <div class='overlay'>
+    <div class='parallaxBG'></div>
+    <div class='overlay'>
 
         <?php include("development/template/branding.php") ?>
             <div class="slideshow" id="slideshow">
                 <ol    class="white slides">
                     <li class="current">
                         <div class="description">
-                            <h2 class='sliderTitle'>Our Services</h2>
+                            <h1 class='sliderTitle'>Commercial Coding's digital development services</h1>
                                 <p>
                                     We can offer a full suite of online digital development services, including website design, branding for your online presence, mobile apps and web-based business applications.
                                 </p>
@@ -343,68 +342,68 @@
                                 </p>
                         </div>
                         <div class="tiltview col">                           
-                            <a href="#"><img  style='width:70%; max-width:100%;' src="development/images/servicesbackground_t.png"/></a>
+                            <a href="#topOfPage"><img  style='width:70%; max-width:100%;' src="development/images/servicesbackground_t.png" alt="banner background"/></a>
                         </div>
                     </li>
                     
                     <li>
                         <div class="description">
-                                <h2 class='sliderTitle'>Creative Web Design</h2>
+                                <h2 class='sliderTitle'>Creative Web Design Services</h2>
                                 <p>
                                     Let us design an interactive, fresh and creative website for you. We'll make sure its built to engage your customers in a way that keeps them coming back.
                                     <br><br>Find out more...
                                 </p>
                         </div>
                         <div class="tiltview col">
-                            <a href="#"><img src="development/images/ser_wd.png"/></a>
+                            <a href="#topOfPage"><img alt="web design background" src="development/images/ser_wd.png"/></a>
                         </div>
                     </li>
                     <li>
                         <div class="description">
-                                <h2 class='sliderTitle'>Clever Application Development</h2>
+                                <h2 class='sliderTitle'>Clever Application Development Services</h2>
                                 <p>
                                     Web applications with intelligent business logic can revolutionize the way your company does business, from optimizing business processes to analyzing data.
                                     <br><br>Find out more...
                                 </p>
                         </div>
                         <div class="tiltview row">
-                            <a href="#"><img  style='width:180%; max-width:180%;' src="development/images/webAppServices.png"/></a>
+                            <a href="#topOfPage"><img alt="webapp services" style='width:180%; max-width:180%;' src="development/images/webAppServices.png"/></a>
                         </div>
                     </li>
                     <li>
                         <div class="description">
-                                <h2 class='sliderTitle'>Contemporary Mobile Apps</h2>
+                                <h2 class='sliderTitle'>Contemporary Mobile App Development Services</h2>
                                 <p>
-                                    Because we've got a keen eye for design, All app development project always finish looking modern, slick and funky! 
+                                    Because we've got a keen eye for design, All app development projects always finish looking modern, slick and funky! 
                                     <br><br>Find out more...
                                 </p>
                         </div>
                         <div class="tiltview row">
-                                <a href="#"><img  style='width:180%; max-width:180%;' src="development/images/test_mb.png"/></a>
+                                <a href="#topOfPage"><img alt="mobile apps background" style='width:180%; max-width:180%;' src="development/images/test_mb.png"/></a>
                         </div>
                     </li>
                     <li>
                         <div class="description">
-                                <h2 class='sliderTitle' >Effective Online Promotion</h2>
+                                <h2 class='sliderTitle' >Effective Online Promotion Services</h2>
                                 <p>
                                     We know there's no point having a website if no one knows its there, thats why we offer promoting services like social media advertising, search engine indexing and offsite SEO services for your website. 
                                     <br><br>Find out more...
                                 </p>
                         </div>
                         <div class="tiltview row">
-                                <a href="#"><img  style='width:180%; max-width:180%;' src="development/images/promos.png"/></a>
+                                <a href="#topOfPage"><img alt="promotions background" style='width:180%; max-width:180%;' src="development/images/promos.png"/></a>
                         </div>
                     </li>
                 </ol>
             </div>
                
-            <div class='bigNavContainer '>
+            <div id="topOfPage" class='bigNavContainer '>
                 <div class='bigNavCards'>
                     <ul>
-                        <li class="wdSection"><img src='development/images/all_icons/corrected_features/white_logoDesign_quoteIcon.png' alt='web design icon'/>Web Design</li>
-                        <li class="wdevSection"><img src='development/images/all_icons/corrected_features//white_admin_quoteIcon.png' alt='web design icon'/>Web Development</li>
-                        <li class="pSection"><img src='development/images/all_icons/corrected_features/white_social_login.png' alt='web design icon'/>Promos</li>
-                        <li class="apdSection"><img src='development/images/all_icons/corrected_features/appDevIcon.png' alt='web design icon'/>App Design</li>
+                        <li class="wdSection"><img src='development/images/all-icons/corrected-features/white_logoDesign_quoteIcon.png' alt='web design icon'/>Web Design</li>
+                        <li class="wdevSection"><img src='development/images/all-icons/corrected-features/white-admin-quoteIcon.png' alt='web development icon'/>Web Development</li>
+                        <li class="pSection"><img src='development/images/all-icons/corrected-features/white-social-login.png' alt='promos icon'/>Promos</li>
+                        <li class="apdSection"><img src='development/images/all-icons/corrected-features/appDevIcon.png' alt='app design icon'/>App Design</li>
                     </ul>
                 </div>
             </div>
@@ -437,17 +436,7 @@
                                                 <h4 class="cbp-nttrigger">HTML5</h4>
                                                 <div class="cbp-ntcontent">
                                                     <p style='font-size:1em; color:#000;'>Our websites are built with latest HTML 5 framework, providing all manner of benefits that ensure your web pages are fast, reliable, mobile ready and have excellent cross browsers support. HTML5 also has a ton more optimisations over its predecessor which make it easier for developers to program in a more efficient and effective way and that suits us perfectly. </p>
-                                                    <!-- 
-                                                    <ul class="cbp-ntsubaccordion  fluid col-12">
-                                                        <li >
-                                                            <h5 class="cbp-nttrigger">Donut pastry</h5>
-                                                            <div class="cbp-ntcontent"></div>
-                                                            <div class='clear'></div>
-
-                                                        </li>
-                                                        <div class='clear'></div>
-                                                    </ul>
-                                                    -->
+                                                   
                                                 </div>
                                             </li>
                                             <li>
@@ -464,7 +453,6 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class='clear'></div>
 
                                 </li>
                                 <div class='clear'></div>
@@ -505,14 +493,11 @@
                 
                 <div class='indexDiv supportGrey supportIndex'>
                     <div class='wrapper'> 
-
-                        <div>
-                            <h1>S&nbsp;U&nbsp;P&nbsp;P&nbsp;O&nbsp;R&nbsp;T&nbsp;&nbsp;&nbsp;F&nbsp;O&nbsp;R&nbsp;&nbsp;&nbsp;Y&nbsp;O&nbsp;U</h1>
-                            <h2>We offer support contracts for all types of web projects that we develop, so you can rest assured that if any problems arise we will be on hand</h2>
-                            <h3 class='hideExtraText'>Our technical support team work up until 7:00PM and guarantee to respond within one hour of your support request.</h3>
-                            <button>E-mail Support</button>
-                            <div class='clear'></div>
-                        </div>
+                        <span class="tagSupportheadLine">SUPPORT FOR YOU</span>
+                        <p class="tagSupportP1">We offer support contracts for all types of web projects that we develop, so you can rest assured that if any problems arise we will be on hand</p>
+                        <p class=' tagSupportP2 hideExtraText'>Our technical support team work up until 7:00PM and guarantee to respond within one hour of your support request.</p>
+                        <button>E-mail Support</button>
+                        <div class='clear'></div>
                     </div>
                 </div>
                 <div class='clear'></div>
@@ -529,8 +514,6 @@
                             </h2>
                         </div>
                         <h3 style='margin-bottom:100px; color:#fff; font-size:20px; text-align:center;  font-weight:100;'>Integrating intelligent web applications can revolutionize the way you do business</h3>
-                       <!-- <h3  style=' width: 80%; margin:0px auto 100px auto; color:#fff; font-size:18px; text-align:center; font-weight:400;'> if its by implementing clever business logic to optimise business processes or adding a CMS to your website and updating it with latest events. </h3>-->
-
                         <ul class='webDevList'>
                             <li><span></span>Content management systems allow web masters to publish new content to a website with out any programming.   </li>
                             <li><span></span>Web apps are great way to handle data, store customer or product information and more.</li>
@@ -558,7 +541,7 @@
                                         <li>
                                             <h4 class="cbp-nttrigger">Onsite SEO</h4>
                                             <div class="cbp-ntcontent">
-                                                <p style='font-size:1em;'>Onsite search engine optimisation is a combination of rules, which when followed optimize the way your website is found by search engines. well that's kind of obvious, but what does this mean - it can be interpreted in so many ways but from a strictly technical perspective its involves tweaking page content such as meta titles and descriptions, including the right amount of keywords or important information in the HTML content, and essentially ensuring page content is consistently inline with explicit definitions that are expressed to a search engine.</p>
+                                                <p style='font-size:1em;'>Onsite search engine optimisation is a combination of rules, which when followed optimize the way your website is found by search engines. well that's kind of obvious, but what does this mean - it can be interpreted in so many ways but from a strictly technical perspective it involves tweaking page content such as meta titles and descriptions, including the right amount of keywords or important information in the HTML content and essentially ensuring page content is consistently inline with explicit definitions that are expressed to a search engine.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -611,7 +594,7 @@
                                             <li>
                                                 <h4 class="cbp-nttrigger">Android & iOS Apps</h4>
                                                 <div class="cbp-ntcontent">
-                                                    <p style='font-size:1em; color:#fff;'>We'll design and develop your iOS or Android mobile app from start to finish, annd everything in between. we've got great experience on both platforms and are happy to go through each stage of development process with you one step at a time. </p>
+                                                    <p style='font-size:1em; color:#fff;'>We'll design and develop your iOS or Android mobile app from start to finish, and everything in between. we've got great experience on both platforms and are happy to go through each stage of development process with you one step at a time. </p>
                                                 </div>
                                             </li>     
                                               
@@ -624,7 +607,7 @@
                                 <li class='openFirst'>
                                     <h3 class="cbp-nttrigger">Mobile App Support</h3>
                                     <div class="cbp-ntcontent">
-                                        <p style='color:#fff;'>We'll offer to maintain your app for as long as you need, so if theres something you dont like 3 months down the line and need a change, with our support contract in place we'll edit the app as soon as you give us the go ahead. </p>
+                                        <p style='color:#fff;'>We'll offer to maintain your app for as long as you need, so if theres something you don't like 3 months down the line and need a change, with our support contract in place we'll edit the app as soon as you give us the go ahead. </p>
                                         
                                     </div>
                                 </li>
@@ -654,12 +637,6 @@
         <script type="text/javascript">
             $(function() {$('.cbp-ntaccordion' ).cbpNTAccordion();});
             new TiltSlider( document.getElementById( 'slideshow' ) );
-                
-                
-		</script>
-                
-                
-                
         </script>
         
     
